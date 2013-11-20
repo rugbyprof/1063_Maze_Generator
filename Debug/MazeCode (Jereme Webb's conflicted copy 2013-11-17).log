@@ -1,0 +1,36 @@
+﻿Build started 11/17/2013 8:51:07 PM.
+     1>Project "C:\Users\Jereme\Dropbox\DataStructuresFall13\MazeCode\MazeCode\MazeCode.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\MazeCode.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AsciiDraw.cpp main.cpp MazeGenerator.cpp MovesStack.cpp
+         MovesStack.cpp
+         MazeGenerator.cpp
+     1>c:\users\jereme\dropbox\datastructuresfall13\mazecode\mazecode\asciidraw.h(284): warning C4172: returning address of local variable or temporary
+     1>c:\users\jereme\dropbox\datastructuresfall13\mazecode\mazecode\asciidraw.h(413): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\jereme\dropbox\datastructuresfall13\mazecode\mazecode\mazegenerator.cpp(12): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\jereme\dropbox\datastructuresfall13\mazecode\mazecode\mazegenerator.cpp(31): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         main.cpp
+     1>c:\users\jereme\dropbox\datastructuresfall13\mazecode\mazecode\asciidraw.h(284): warning C4172: returning address of local variable or temporary
+     1>c:\users\jereme\dropbox\datastructuresfall13\mazecode\mazecode\asciidraw.h(413): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         AsciiDraw.cpp
+     1>c:\users\jereme\dropbox\datastructuresfall13\mazecode\mazecode\asciidraw.h(284): warning C4172: returning address of local variable or temporary
+     1>c:\users\jereme\dropbox\datastructuresfall13\mazecode\mazecode\asciidraw.h(413): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         Generating Code...
+     1>c:\users\jereme\dropbox\datastructuresfall13\mazecode\mazecode\mazegenerator.cpp(205): warning C4715: 'MazeGenerator::PickRandomMove' : not all control paths return a value
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Jereme\Dropbox\DataStructuresFall13\MazeCode\Debug\MazeCode.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\MazeCode.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Jereme\Dropbox\DataStructuresFall13\MazeCode\Debug\MazeCode.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Jereme\Dropbox\DataStructuresFall13\MazeCode\Debug\MazeCode.lib" /MACHINE:X86 Debug\AsciiDraw.obj
+         Debug\main.obj
+         Debug\MazeGenerator.obj
+         Debug\MovesStack.obj
+         LINK : C:\Users\Jereme\Dropbox\DataStructuresFall13\MazeCode\Debug\MazeCode.exe not found or not built by the last incremental link; performing full link
+         MazeCode.vcxproj -> C:\Users\Jereme\Dropbox\DataStructuresFall13\MazeCode\Debug\MazeCode.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Jereme\Dropbox\DataStructuresFall13\MazeCode\Debug\MazeCode.exe;#1" /manifest Debug\MazeCode.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Touching "Debug\MazeCode.lastbuildstate".
+     1>Done Building Project "C:\Users\Jereme\Dropbox\DataStructuresFall13\MazeCode\MazeCode\MazeCode.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.35
